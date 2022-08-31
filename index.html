@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstinput">Input:</label>
+      <input type="text" id="firstinput" name="firstinput" /><br /><br />
+      <div class="dropdown">
+        <button onclick="myfunction()" class="dropbutton">If input is a full name: Find the first name</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</a><br />
+          <a href="#">If input is a full name: Find the first name</a><br />
+          <a href="#">If input is a full name: Find the length of the first name</a><br />
+          <a href="#">If input is a full name: Find the middle name start and end position, and the middle name itself in a full name string</a><br />
+          <a href="#">If input is a filename: Check if a filename is .png or .jpg</a><br />
+          <a href="#">If input is a password: Hide a password with the correct number of *s</a><br />
+          <a href="#">With any input: Make the third character uppercase</a><br />
+          <a href="#">With any input: Make a character uppercase, if it follows a space or a hyphen</a><br />
+        </div>
+      </div>
+
+      <br />
+      <label for="output">Output:</label>
+      <input type="text" id="Output" name="Output" placeholder="Output goes here" />
+    </form>
+    <br />
+    <button type="button">generate output here</button>
+    <script src="script.js"></script>
+  </body>
+</html>
